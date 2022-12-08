@@ -1,0 +1,580 @@
+.container{
+    width: 1020px;
+    margin: 0 auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .container{
+    background: url("img/head.png") no-repeat;
+    width: 1280px;
+    height: 551px;
+    text-align: center;
+}
+.container .menu{
+    display: flex;
+    align-items: center;
+}
+.container .logo{
+    width: 51px;
+    height: 55px;
+    padding: 30px 20px 0 130px;
+}
+.container .menu .name{
+    display: inline;
+    padding: 35px 30px 0 0px;
+}
+.container .menu .name p{
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+.keksby{
+    width: 133px;
+    height: 27px;
+}
+.menu ul{
+    padding: 40px 100px 0 100px;
+    display: flex;
+    gap: 50px;
+}
+.menu ul li{
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+}
+.container .menu button{
+    width: 170px;
+    height: 50px;
+    background: none;
+    border: 2px solid rgb(231, 219, 209);
+    color:  rgb(231, 219, 209);
+    font-size: 18px;
+}
+.button{
+    padding: 40px 20px 0 75px;
+}
+header .container h1{
+    padding: 93px 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(245, 243, 243);
+    font-size: 45px;
+    width: 680px;
+    height: 110px;
+    line-height: 55px;
+}
+.preim .container{
+    display: flex;
+    text-align: center;
+    gap: 32px;
+    padding-left: 24px;
+}
+.vibor .zagl{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a38b70;
+    font-weight: 700;
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+ .kachestvo .zagl, .bezopasnost .zagl{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a38b70;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-bottom: 0px;
+}
+.vibor .text, .kachestvo .text, .bezopasnost .text{
+    line-height: 25px;
+    padding-left: 10px;
+}
+.vibor{
+    width: 289px;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+ .kachestvo, .bezopasnost{
+    padding-left: 20px;
+    width: 289px;
+    padding-top: 25px;
+    border-left: 1px solid grey;
+}
+
+
+.teory{
+    background: #f2f2f2;
+    width:1280px;
+    margin:40px auto;
+    height: 611px;
+}
+.teory .container .zagl1, .rewies .container .zagl1, .popular_products .container .zagl1{
+    padding-top: 66px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a38b70;
+    font-weight: 700;
+}
+.teory .container .zagl1{
+    padding-top: 16px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a38b70;
+    font-weight: 700;
+}
+.container .te {
+    display: flex;
+    gap: 348px;
+    padding-top: 6px;
+}
+.container .te button{
+    width: 169px;
+    height: 50px;
+    background: none;
+    border: 2px solid #a38b70;
+    color: #a38b70;
+    font-size: 18px;
+}
+.te .button{
+    padding: 69px 0px 0 104px;
+}
+.okras{
+    padding-top: 14px;
+}
+.cat_home{
+    margin-top: 70px;
+}
+.okras .sait, .cat_home .sait{
+    margin-top: 3px;
+    margin-bottom: 9px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.sait .ist{
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
+}
+.sait .sait1{
+    font-size: 16px;
+    font-weight: 100;
+    font-style: italic;
+    color: #a38b70;
+    text-decoration: underline;
+}
+.info img{
+    width: 100px;
+    height: 100px;
+}
+.info{
+    display: flex;
+}
+.info p{
+    font-size: 16px;
+    width: 691px;
+    padding-left: 30px;
+    line-height: 25px;
+    margin-top: 6px;
+}
+
+
+.rewies .zagl1{
+    margin-top: 5px;
+    margin-bottom: 65px;
+}
+.rew{
+    display: flex;
+    padding-bottom: 90px;
+    gap: 95px;
+}
+ .rewies .container .zagl1{
+    padding-top: 25px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a38b70;
+    font-weight: 700;
+}
+.container .re {
+    display: flex;
+    gap: 348px;
+    padding-top: 6px;
+}
+.container .re button{
+    width: 169px;
+    height: 50px;
+    background: none;
+    border: 2px solid #a38b70;
+    color: #a38b70;
+    font-size: 18px;
+}
+.re .button{
+    padding: 30px 0px 0 91px;
+}
+.rew1{
+    border-left: 3px solid #a38b70;
+    width: 412px;
+    height: 115px;
+}
+.text1{
+    margin-top: 0px;
+    line-height: 25px;
+    padding-left: 50px;
+}
+.user{
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+.container .ca {
+    display: flex;
+    gap: 348px;
+    padding-top: 6px;
+}
+.two_block{
+    background: #f2f2f2;
+    margin:0 auto;
+    width: 1280px;
+    height: 1026px;
+}
+.container .ca button{
+    width: 169px;
+    height: 50px;
+    background: none;
+    border: 2px solid #a38b70;
+    color: #a38b70;
+    font-size: 18px;
+}
+.ca .button{
+    padding: 61px 0px 0 0px;
+}
+.popular_products .zagl1{
+    margin-top: 0px;
+    margin-bottom: 62px;
+}
+.name_prod{
+    display: flex;
+    padding-left: 25px;
+}
+.name_prod .name_p{
+    width: 209px;
+}
+.products{
+    display: flex;
+    gap: 50px;
+}
+.product{
+    border: 1px solid #a38b70;
+    width: 306px;
+    height: 332px;
+}
+.product p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.button1{
+    padding-left: 21px;
+    display: flex;
+    gap: 10px;
+    padding-top: 4px;
+}
+.button1 button{
+    border-radius: 3px;
+    font-size: 18px;
+    border: none;
+    background: #a38b70;
+    color: #f2f2f2;
+    width: 124px;
+    height: 49px;
+}
+
+
+
+.price_list{
+    border-collapse: collapse;
+    line-height: 30px;
+    padding-bottom: 90px;
+}
+.verh th{
+    font-size: 14px;
+}
+.price .container{
+    margin-bottom: 50px;
+}
+
+.price .zagl1{
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 17px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a38b70;
+    font-weight: 700
+}
+th{
+    font-size: 18px;
+    background: #f2f2f2;
+    border: solid 1px #a38b70;
+    padding: 10px 17px;
+}
+.price_list .price_name{
+    font-weight: bold;
+    color: #000000;
+    width: 422px;
+}
+.price_list .price_master{
+    width: 305px;
+}
+.price_list .price_pr{
+    width: 135px;
+}
+.price_list .verh th{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #6b6b6b;
+}
+.price_list tr th{
+    text-align: left;
+    font-weight: 100;
+}
+
+
+
+
+.write .zagl1{
+    margin-top: 0px;
+    padding-top: 58px;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a38b70;
+    font-weight: 700;
+}
+.fio, .phone, .mail, .obr{
+    border: #a38b70 1px solid;
+}
+.fio{
+    font-size: 18px;
+    width: 625px;
+    height: 50px;
+}
+.phone, .mail{
+    width: 285px;
+    font-size: 18px;
+    height: 50px;
+}
+.con{
+    display: inline;
+}
+.contacts{
+    display: flex;
+    gap: 51px;
+}
+.wr{
+    display: flex;
+    gap: 50px;
+}
+.check label{
+    font-size: 18px;
+}
+.check .checkb{
+    margin-top: 33px;
+    width: 30px;
+    height: 30px;
+}
+.line{
+    margin-top: 13px;
+    border-top: 1px #a38b70 solid;
+}
+.obr{
+    width: 625px;
+    height: 110px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.button2{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.button2 button{
+    margin-top: 3px;
+    border-radius: 3px;
+    font-size: 18px;
+    border: none;
+    background: #a38b70;
+    color: #f2f2f2;
+    width: 142px;
+    height: 50px;
+}
+.form p{
+    padding-left: 16px;
+}
+.form .type{
+    padding-top: 26px;
+    font-size: 12px;
+    margin-top: 0px;
+}
+.form .type1 {
+    padding-top: 35px;
+    font-size: 12px;
+    margin-top: 0px;
+}
+.wr .image img{
+    padding-top: 55px;
+}
+
+
+
+
+
+.footer{
+    background: #363636;
+    margin: 0 auto;
+    width: 1280px;
+    height: 573px;
+}
+.container .verhn{
+    display: flex;
+    gap: 615px;
+    padding-bottom: 47px;
+}
+.footer .logo{
+    width: 51px;
+    height: 55px;
+    padding: 44px 20px 0 0px;
+}
+.ln{
+    display: flex;
+}
+.ln .name{
+    display: inline;
+    padding: 35px 30px 0 0px;
+}
+.ln .name p{
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.keksby{
+    padding-top: 4px;
+    width: 133px;
+    height: 27px;
+}
+.container .verhn button{
+    width: 169px;
+    height: 50px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+}
+.verhn .button{
+    padding: 50px 20px 0 0px;
+}
+.sred{
+    display: flex;
+    gap: 40px;
+    border-top: 1px solid #5e5e5e;
+    border-bottom: 1px solid #5e5e5e;
+    padding-bottom: 57px;
+}
+.sred .mag .zag, .nizh .zag{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #a38b70;
+    font-weight: 700;
+}
+.sred .mag .zag{
+    padding-top: 22px;
+}
+.nizh .zag{
+    padding-top: 35px;
+}
+.sred .mag .txt{
+    padding-top: 2px;
+    color: #c3c3c3;
+    font-size: 16px;
+    font-weight: 100;
+    width: 130px;
+}
+.nizh{
+    display: flex;
+}
+.b{
+    margin-top: 51px;
+    width: 60px;
+    height: 45px;
+    border: 1px solid #5e5e5e;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    margin-left: 42px;
+    padding-top: 16px;
+    text-align: center;
+}
+.f{
+    margin-top: 51px;
+    width: 60px;
+    height: 48px;
+    border: 1px solid #5e5e5e;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    margin-left: 9px;
+    padding-top: 13px;
+    text-align: center;
+}
+.inst{
+    margin-top: 51px;
+    width: 60px;
+    height: 48px;
+    border: 1px solid #5e5e5e;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    margin-left: 9px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+
+.form label input {
+    display: none;/* <--скрываем дефолтный чекбокс */
+}
+.form label span {/* <-- стилизируем новый */
+    height: 20px;
+    width: 20px;
+    border: 2px solid #7F7F7F;
+    display: inline-block;
+    position: relative;
+    background-color:#FFF;
+    border-radius:2px;
+    padding:3px;
+    margin-top: 31px;
+    margin-left: 15px;
+}
+[type=checkbox]:checked + span:before {/* <-- ставим иконку, когда чекбокс включен  */
+    content: '\2714';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    font-size:23px;
+    color:black;
+}
+label {
+    display: flex;
+}
+.form label p {
+    padding-top: 26px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 14px;
+    color: #7F7F7F;
+}
+.check{
+    display: inline;
+}
